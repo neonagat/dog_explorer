@@ -17,9 +17,9 @@ A tiny single‑page website built with vanilla HTML/CSS/JS that consumes **The�
    *No build tools or API keys required.*
 
 ### Optional: GitHub Pages
-1. Create a repo named e.g. `dog-explorer`.
+1. Create a repo named e.g. `dog_explorer`.
 2. Push this project.
 3. In the repo settings, enable **GitHub Pages → Deploy from `/ (root)`**.  
-   Your live link will look like `https://your‑username.github.io/dog-explorer/`.
+   Your live link will look like `https://your‑username.github.io/dog_explorer/`.
 
 ---
