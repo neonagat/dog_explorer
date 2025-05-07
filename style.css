@@ -1,0 +1,51 @@
+/* ----- Global reset & theme ----- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- Header & Navigation ----- */
+header { background: #ffe08a; padding: 1rem; border-bottom: 2px solid #e0b400; }
+h1     { text-align: center; margin-bottom: .5rem; }
+
+nav { display: flex; justify-content: center; gap: 1rem; }
+nav button {
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #ffcf54;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+nav button:hover,
+nav button.active { background: #ffd86a; }
+
+/* ----- Main content ----- */
+main { flex: 1; width: min(92%, 60rem); margin: 2rem auto; }
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+.card h2 { font-size: 1.15rem; margin-bottom: .35rem; }
+.card p  { font-size: .9rem; line-height: 1.35; }
+
+img.random-dog {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.error { color: crimson; font-weight: 600; }
